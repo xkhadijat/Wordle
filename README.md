@@ -18,7 +18,7 @@ Dynamic Keywords: The game selects a keyword based on the day of the year.
 Interactive Gameplay: Users can input guesses and see immediate feedback on their progress.
 Color-coded Feedback: Correct letters in correct positions are highlighted in green, correct letters in wrong positions in Red, and incorrect guesses in dark grey.
 
-Installation
+Installation:
 To run the Wordle game locally, follow these steps:
 
 1.Clone the repository:
