@@ -16,7 +16,7 @@ This project is a recreation of the popular Wordle game, implemented using React
 Features
 Dynamic Keywords: The game selects a keyword based on the day of the year.
 Interactive Gameplay: Users can input guesses and see immediate feedback on their progress.
-Color-coded Feedback: Correct letters in correct positions are highlighted in green, correct letters in wrong positions in Red, and incorrect guesses in dark grey.
+Color-coded Feedback: Correct letters in correct positions are highlighted in green, correct letters in wrong positions in Red, and incorrect guesses in dark grey. To help the user, the letter guess wrong(gray) freeze allowing the user to be able to guess correctly.
 
 Installation:
 To run the Wordle game locally, follow these steps:
