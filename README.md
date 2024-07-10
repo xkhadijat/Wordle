@@ -1,4 +1,4 @@
-Wordle Game
+a clone of the famous Wordle Game
  Welcome to Wordle, a React Native-based word guessing game!
 
 Table of Contents
