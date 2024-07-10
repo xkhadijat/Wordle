@@ -23,7 +23,24 @@ const determineDayofTheYear =() =>{
 };
 
 const onthisday =  determineDayofTheYear();
-const bankofkeywords =["Eaten", "lemon", "mango", "night", "ocean", "piano"];
+const bankofkeywords =["eaten", "lemon", "mango", "night", "ocean", "piano",
+  "aback", "abate", "abbey", "abbot", "abhor", "abide", "abled", "abode", "abort", "about", 
+    "above", "abuse", "abyss", "acorn", "acrid", "actor", "acute", "adage", "adapt", "adept", 
+    "admin", "admit", "adobe", "adopt", "adore", "adorn", "adult", "affix", "afire", "afoot", 
+    "after", "again", "agape", "agate", "agent", "agile", "aging", "aglow", "agony", "agree", 
+    "ahead", "aider", "aisle", "alarm", "album", "alert", "algae", "alibi", "alien", "align", 
+    "alike", "alive", "alley", "allow", "alloy", "aloft", "alone", "along", "aloof", "aloud", 
+    "alpha", "altar", "alter", "amass", "amaze", "amber", "amble", "amend", "amiss", "amity", 
+    "among", "ample", "amply", "amuse", "angel", "anger", "angle", "angry", "angst", "anime", 
+    "ankle", "annex", "annoy", "annul", "anode", "antic", "anvil", "aorta", "apace", "apart", 
+    "apple", "apply", "apron", "aptly", "argue", "arise", "armor", "aroma", "arose", "array", 
+    "arrow", "arson", "artsy", "ascot", "ashen", "aside", "askew", "assay", "asset", "atoll", 
+    "atone", "attic", "audio", "audit", "augur", "aunty", "avail", "avert", "avian", "avoid", 
+    "await", "awake", "award", "aware", "awash", "awful", "awoke", "axial", "axiom", "azure", 
+    "bacon", "badge", "badly", "bagel", "baggy", "baker", "baler", "balmy", "banal", "banjo", 
+    "barge", "baron", "basic", "basil", "basin", "basis", "batch", "bathe", "baton", "batty", 
+    "beach", "beady", "beard", "beast", "began", "begat", "beget", "begin", "begun", "being", 
+    "belch", "belie",]
 
 export default function App() {
   const keyword = bankofkeywords[onthisday % bankofkeywords.length] || "";
